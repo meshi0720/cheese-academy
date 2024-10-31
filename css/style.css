@@ -1,0 +1,230 @@
+/* ここから下に記載していく */
+header{
+    background-color: white;
+    height: 100px;
+}
+.header-logo1{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    float:left;
+}
+.header-logo2{
+    font-size: 14px;
+    float:left;
+    padding: 5px;
+}
+.header-list li{
+list-style: none;
+font-size: 12px;
+float: right;
+padding: 20px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.container b{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: white;
+}
+.container p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 14px;
+    color: white;
+}
+
+.About h1 {
+    color: orange;
+    text-align: center;
+}
+.About p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 200%;
+}
+
+.About img{
+    width: 100%;
+}
+
+.Course h2{
+    color: black;
+    text-align: center;
+}
+
+.Course p{
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.wrap1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Noen {
+    background-color:rgb(240, 238, 238);
+}
+
+.Noen h2 {
+    text-align: center;
+}
+
+.Noen p {
+    font-size: 12px;
+    margin: 33px;
+}
+
+
+.wrap2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Knowledge {
+    background-color: rgb(240, 238, 238);
+}
+
+.Knowledge h2 {
+    text-align: center;
+}
+
+.Knowledge p {
+    font-size: 12px;
+    margin: 33px;
+}
+
+.wrap3 {
+    display: flex;
+    justify-content: center;
+}
+
+.graduation {
+background-color: rgb(240, 238, 238);
+}
+
+.graduation h2 {
+    text-align: center;
+}
+
+.graduation p {
+    font-size: 12px;
+    margin: 33px;
+}
+
+.NEWS h2{
+color: orange;
+text-align: center;    
+}
+
+.NEWS h3 {
+    text-align: center;
+}
+
+.wrap4 {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.wrap4 img {
+    justify-content: flex-start;
+    width: 200px;
+    height: auto;
+}
+
+.wrap4 p {
+    font-size: 8PX;
+    text-align: center;
+}
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.submit-btn1 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.Access {
+    text-align: center;
+    background-color: rgb(236, 233, 233);
+    padding-bottom: 20px;
+}
+.Access p {
+    font-size: 12px;
+}
+
+.CONTACT {
+    text-align: center;
+}
+
+.CONTACT p {
+    font-size: 12PX;
+}
+
+.contact-form {
+    width: 80%;
+    margin:0 auto;
+    font-size: 12px;
+}
+
+.contact-form table, .contact-form .submit-btn {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact-form th {
+    text-align: left;
+    width: 25%;
+}
+
+.contact-form td {
+    width: 75%;
+}
+
+.contact-form input:not(input[type="radio"]), .contact-form textarea {
+    width: 100%;
+}
+
+.contact-form input:not(input[type="radio"]) {
+    height: 20px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form label {
+    display: contents; 
+}
+
+.contact-form th {
+    padding: 20px 0;
+    vertical-align: top;
+}
+
+.copyright {
+    text-align: center;
+    background-color: darkgray;
+}
